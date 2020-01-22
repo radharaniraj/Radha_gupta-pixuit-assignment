@@ -1,0 +1,108 @@
+
+<!------ Include the above in your HEAD tag ---------->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+ 
+ <script src="script.js"></script>   
+
+        <style>
+            .cmd {
+              background-color: #1e90ff;
+              border: none;
+              color: white;
+              padding: 12px 30px;
+              cursor: pointer;
+              font-size: 20px;
+            }
+            
+            /* Darker background on mouse-over */
+            .btn:hover {
+              background-color: RoyalBlue;
+            }
+            </style>
+    
+        </head>
+    <body id = "target">
+<div class="container">
+    <div class="row">
+        <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+                    <address>
+                        <strong>Bill to:</strong>
+                        <br>
+                        Slate Rock and Gravel Company
+                        <br>
+                        222 Rocky Way
+                        <br>
+                        30000 Bedrock , Cobblestone Country
+                        <br>
+                        +555 7 123-5555
+                        <br>
+                        fred@slaterrockgravel.bed
+                        <br>
+                        Attn: fred Flintstone
+                        <br>
+                    </address>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 ">
+                    <p>
+                        <em> Issue Date:03/12/2019</em>
+                    </p>
+                    <p>
+                        <em> Due Date:04/02/2019</em>
+                    </p>
+                    <p>
+                        <em> Net:21</em>
+                    </p>
+                    <p>
+                        <em> Currency:USD</em>
+                    </p>
+                    <p>
+                        <em>P.O .#: 1/3-147</em>
+                    </p>
+                    
+                </div>
+            </div>
+            <form class="row">
+                <div class="text-center">
+                    <h1>Receipt</h1>
+                </div>
+                </span>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>GST</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-md-9"><em>Frozen Brontoscurus</em></h4></td>
+                            <td class="col-md-1" style="text-align: center"> 2 </td>
+                            <td class="col-md-1 text-center">2%</td>
+                            <td class="col-md-1 text-center">120</td>
+                            <td class="col-md-1 text-center">240.00</td>                        </tr>
+
+                        </tr>
+                        </tbody>
+                        </table>
+                            <p><b>Subtotal:244.80</b></p>
+               <button id="cmd">generate pdf</button>
+            </div>
+        
+    </head>
+    </body>
+    </html>

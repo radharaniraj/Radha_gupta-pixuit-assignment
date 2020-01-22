@@ -1,0 +1,45 @@
+table table-hover{
+    padding: 25px;
+    font-size: .5em;
+    background: #EEE;
+    width: 100%;
+    border-collapse: collapse;
+}
+.service{border-bottom: 1px solid #EEE;}
+.item{width: 84mm;}
+.itemtext{font-size: .5em;}
+b{
+    text-align: right;
+    text-align: left;
+}
+td{
+    padding: 50px 0 50px 150px;
+    border: 1px solid #EEE
+  }
+row {
+text-align: center;
+}
+h1{
+    text-align: center;
+}
+address{
+    text-align: right;
+}
+thead{
+    margin-right: 1000px;
+}
+text-center{
+    column-count: 5;
+    column-gap: 500px;
+}
+btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+ body{
+     background-color: lavenderblush;
+ }
